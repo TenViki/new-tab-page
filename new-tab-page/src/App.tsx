@@ -1,11 +1,12 @@
-import { useState } from 'react'
+import { useState } from "react";
+import Hero from "./components/hero/Hero";
 
 function App() {
   return (
-    <div className="App">
-      project
+    <div className="app">
+      <Hero />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
